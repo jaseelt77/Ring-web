@@ -369,3 +369,35 @@ footer{
     }
     }
 }
+
+
+
+// dynamic asset updations
+section #full-size-image {
+    background-size: 100%;
+    /* border: 2px solid black; */
+    width: 218px;
+    height: 159px;
+    margin: 0 auto;
+}
+section{
+    .asset_1 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/women1.png') no-repeat;
+    }
+    .asset_2 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/asset3.png') no-repeat;
+    }
+    .asset_3 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/asset4.png') no-repeat;
+    }
+    .asset_5 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/asset5.png') no-repeat;
+    }
+    .asset_5 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/asset5.png') no-repeat;
+    }
+    .asset_6 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/blog_1.png') no-repeat;
+    
+    }
+} 
