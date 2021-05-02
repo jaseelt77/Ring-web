@@ -35,6 +35,7 @@ input, textarea{
         opacity: 0.8;
         text-decoration: none;
         color: #fff;
+        background: #0684bd;
     }
  }
 header{
@@ -150,27 +151,14 @@ header{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                // .triangle-one{
-                //     background: #fff;
-                //     padding: 17px;
-                //     height: 345px;
-                //     position: relative;
-                //     clip-path: polygon(0 0, 100% 0, 97% 30%, 0 36%);
-                //     width: 78%;
-                //     border: 5px solid #000;
-                //     // box-sizing: border-box;
-                //     font-size: 17px;
-                //     text-transform: uppercase;
-                //     span{
-                //         color: #ef4b23;
-                //     }
-                // }
+               
                 .outside{
                     position: relative;
                     width: 55vmin;
                     height: 25vmin;
                     background: #000;
                     clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+                    border-radius:5px;
                     .inside{
                         position: absolute;
                         top: 10px;
@@ -281,7 +269,8 @@ header{
             font-size: 20px;
             transition: ease .25s all;
             &:hover{
-                color: #ef4b23;
+                color: #233955;
+                text-decoration: underline;
             }
 
             }
@@ -373,14 +362,28 @@ footer{
 
 
 // dynamic asset updations
-section #full-size-image {
-    background-size: 100%;
-    /* border: 2px solid black; */
-    width: 218px;
-    height: 159px;
+#text-box p{
+  
+    width: 300px;
     margin: 0 auto;
+    font-size: 19px;
+    font-weight: 400;
 }
 section{
+    #mob-size-image {
+        background-size: 100%;
+        /* border: 2px solid black; */
+        width: 218px;
+        height: 159px;
+        margin: 0 auto;
+    }
+    #full-size-image {
+        background-size: 100%;
+        /* border: 2px solid black; */
+        width: 218px;
+        height: 159px;
+        margin: 0 auto;
+    }
     .asset_1 {
         background: url('https://jaseelt77.github.io/Ring-web/img/women1.png') no-repeat;
     }
@@ -390,8 +393,8 @@ section{
     .asset_3 {
         background: url('https://jaseelt77.github.io/Ring-web/img/asset4.png') no-repeat;
     }
-    .asset_5 {
-        background: url('https://jaseelt77.github.io/Ring-web/img/asset5.png') no-repeat;
+    .asset_4 {
+        background: url('https://jaseelt77.github.io/Ring-web/img/asset1.png') no-repeat;
     }
     .asset_5 {
         background: url('https://jaseelt77.github.io/Ring-web/img/asset5.png') no-repeat;
@@ -401,3 +404,26 @@ section{
     
     }
 } 
+
+
+// section{
+//     .bg-asset_1 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/women1.png') no-repeat;
+//     }
+//     .bg-asset_2 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/asset3.png') no-repeat;
+//     }
+//     .bg-asset_3 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/asset4.png') no-repeat;
+//     }
+//     .asset_4 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/asset1.png') no-repeat;
+//     }
+//     .bg-asset_5 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/asset5.png') no-repeat;
+//     }
+//     .bg-asset_6 {
+//         background: url('https://jaseelt77.github.io/Ring-web/img/blog_1.png') no-repeat;
+    
+//     }
+// } 
